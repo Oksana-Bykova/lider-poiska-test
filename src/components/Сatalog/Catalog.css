@@ -3,6 +3,18 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 1200px) {
+    .catalog {
+      max-width: 76%;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .catalog {
+      max-width: 60%;
+    }
+  }
+
 .catalog__list {
     display: flex;
     flex-wrap: wrap;
@@ -10,7 +22,15 @@
     padding: 0;
     row-gap: 40px;
     column-gap: 27px;
+    justify-content: space-between;
 }
+
+@media screen and (max-width: 1100px) {
+    .catalog__list {
+        row-gap: 40px;
+        column-gap: 15px;
+    }
+  }
 
 .catalog__title {
     font-size: 30px;
@@ -20,3 +40,9 @@
     margin-top: 56px;
     margin-bottom: 38px;
 }
+
+@media screen and (max-width: 749px) {
+    .catalog__title {
+        margin-bottom: 29px;
+    }
+  }

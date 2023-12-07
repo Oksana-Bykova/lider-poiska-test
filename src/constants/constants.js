@@ -34,7 +34,7 @@ const data = [
   {
     id: "2",
     img: img2,
-    name: "Фитнес-трекер HONOR Band 5 CRS-B19S, 0.95``, черный/розовый",
+    name: "Фитнес-трекер HONOR Band 5 CRS-B19S, 0.95\", черный/розовый",
     price: "2390",
   },
 
@@ -48,7 +48,7 @@ const data = [
   {
     id: "4",
     img: img4,
-    name: "Фитнес-трекер HONOR Band 5 CRS-B19S, 0.95``, черный",
+    name: "Фитнес-трекер HONOR Band 5 CRS-B19S, 0.95\", черный",
     price: "2390",
   },
 
@@ -69,7 +69,7 @@ const data = [
   {
     id: "7",
     img: img7,
-    name: "Монитор игровой ACER NitroRG241YPbiipx 23.8`` черный",
+    name: "Монитор игровой ACER NitroRG241YPbiipx 23.8\" черный",
     price: "16 800",
   },
 
@@ -84,7 +84,7 @@ const data = [
     id: "9",
     img: img9,
     name: "Умная колонка ЯНДЕКС c голосовым помощником Алисой, серебристый",
-    price: "4990",
+    price: "5670",
   },
 
   {
@@ -97,7 +97,7 @@ const data = [
     id: "11",
     img: img11,
     name: "Шлем виртуальной реальности HTC Vive PRO Eye EEA, черный/синий",
-    price: "60 990",
+    price: "11 960",
   },
 
   {
@@ -110,7 +110,7 @@ const data = [
   {
     id: "13",
     img: img13,
-    name: "Смарт-часы AMAZFIT Bip U, 1.43``, зеленый / зеленый",
+    name: "Смарт-часы AMAZFIT Bip U, 1.43\", зеленый / зеленый",
     price: "4490",
   },
 
@@ -124,7 +124,7 @@ const data = [
   {
     id: "15",
     img: img15,
-    name: "Гироскутер MIZAR MZ10,5CN, 10.5``, карбон",
+    name: "Гироскутер MIZAR MZ10,5CN, 10.5\", карбон",
     price: "12 990",
   },
 

@@ -7,18 +7,18 @@
 
 @media screen and (max-width: 1200px) {
   .header {
-    max-width: 930px;
+    width: 79%;
   }
 }
 
 @media screen and (max-width: 749px) {
   .header {
-    max-width: 690px;
+    width: 92%;
   }
 }
 
 .header__logo-container {
-  width: 19%;
+  width: 215px;
 }
 
 .header__logo {
@@ -26,8 +26,14 @@
 }
 
 .header__img-basket {
-    margin-top: 4px;
+  margin-top: 4px;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 749px) {
+  .header__img-basket {
+    margin-top: 3px;
+  }
 }
 
 .header__text {

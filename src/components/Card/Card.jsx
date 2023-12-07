@@ -11,6 +11,7 @@ function Card({ img, text, price }) {
 
       <p className="card__text">{text}</p>
       <p className="card__price">{price} ₽</p>
+      <button className="card__button">в корзине</button>
     </li>
   );
 }
