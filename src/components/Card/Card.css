@@ -1,0 +1,30 @@
+.card {
+  max-width: 20%;
+  border: 1px solid #DEDEDE;
+  padding: 10px 20px 35px 20px;
+  height: 100%;
+}
+
+.card__text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 17px;
+  max-width: 230px;
+  min-height: 63px;
+}
+
+.card__price {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: center;
+  margin: 0;
+}
+
+.card__img-wrapper {
+    max-width: 200px;
+    margin: 0 auto;
+}

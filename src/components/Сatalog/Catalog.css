@@ -1,0 +1,22 @@
+.catalog {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.catalog__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    row-gap: 40px;
+    column-gap: 27px;
+}
+
+.catalog__title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 130%; 
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 38px;
+}
