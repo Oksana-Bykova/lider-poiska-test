@@ -1,7 +1,7 @@
 import React from "react";
 import "./Catalog.css";
 import { data } from "../../constants/constants";
-import Card from "../Card/Card";
+import Card from "../CardCatalog/CardCatalog";
 
 function Catalog() {
   return (
@@ -10,7 +10,7 @@ function Catalog() {
       <ul className="catalog__list">
        { data.map((item) => (
             <Card key ={item.id }
-            img = {item.img} text= {item.name} price={item.price}
+            card = {item}
             ></Card>
        ))
        }

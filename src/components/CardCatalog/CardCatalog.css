@@ -3,6 +3,7 @@
   border: 1px solid #dedede;
   padding: 10px 20px 31px 20px;
   height: 100%;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1200px) {
@@ -19,6 +20,21 @@
     padding: 10px 20px 0px 20px;
   }
 }
+
+.card:hover .card__button {
+  display: block;
+}
+
+.card:hover .card__text {
+  /* transform: translateY(-50%);  */
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.card:hover {
+  padding-bottom: 0;
+}
+
 
 .card__text {
   font-size: 16px;
@@ -84,6 +100,7 @@
 
 .card__button {
   display: none;
+  /* display: block; */
   font-size: 12px;
   font-weight: 600;
   line-height: 130%;
@@ -91,14 +108,16 @@
   text-transform: uppercase;
   border: none;
   color: #FFF;
+  width: 80%;
+    height: 40px;
+    background-color: #00a82d;
+    margin: 15px auto 19px auto;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 749px) {
   .card__button {
     display: block;
-    width: 186px;
-    height: 40px;
-    background-color: #00a82d;
-    margin: 15px auto 19px auto;
+    
   }
 }
