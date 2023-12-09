@@ -9,7 +9,17 @@ import "./Header.css";
 
 function Header() {
 
-const items = useSelector(state => state.cart.itemsInCart.length);
+
+const data = useSelector(state => state.cart.itemsInCart);
+
+const items = data.reduce((acc, item) => {
+  for (let i = 0; i < item.count; i++) {
+    acc++;
+    console.log(data);
+  }
+  return acc;
+}, 0);
+
 
 
   return (
@@ -24,7 +34,7 @@ const items = useSelector(state => state.cart.itemsInCart.length);
         {items > 0 ? (
       <Link to="/basket" className="header__link">
         <img className="header__img-basket" alt="картинка корзины" src={basket}></img>
-        <span className="header__text">Корзина</span>
+        <span className="header__text">Корзина  </span>
         <span className="header__count"> {items} </span>
       </Link>
     ) : (

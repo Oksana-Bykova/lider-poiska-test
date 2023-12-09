@@ -1,5 +1,5 @@
 import React from "react";
-
+import { useState } from "react";
 import { useDispatch } from "react-redux";
 
 
@@ -7,11 +7,18 @@ import "./CardCatalog.css";
 import { setItemInCart } from "../../redux/cart/reducer";
 
 function CardCatalog({ card }) {
+
   const dispatch = useDispatch();
+  const [isAddedToCart, setIsAddedToCart] = useState(false);
 
   const handleAddToCart = (e) => {
-    e.stopPropagation();
-    dispatch(setItemInCart(card));
+    if (!isAddedToCart) {
+      e.stopPropagation();
+      dispatch(setItemInCart(card));
+      e.target.classList.add('card__button-active');
+      setIsAddedToCart(true);
+    }
+    
   };
 
 
@@ -28,7 +35,7 @@ function CardCatalog({ card }) {
       <p className="card__text">{card.name}</p>
       <p className="card__price">{card.price} ₽</p>
       <button className="card__button" onClick={handleAddToCart}>
-        в корзине
+        {isAddedToCart? "в корзине" : "добавить в корзину"}
       </button>
     </li>
   );

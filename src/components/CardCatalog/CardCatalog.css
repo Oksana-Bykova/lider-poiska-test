@@ -110,7 +110,7 @@
   color: #FFF;
   width: 80%;
     height: 40px;
-    background-color: #00a82d;
+    background-color: #296DC1;
     margin: 15px auto 19px auto;
     cursor: pointer;
 }
@@ -120,4 +120,9 @@
     display: block;
     
   }
+}
+
+.card__button-active {
+  background-color: #00A82D;
+  
 }
