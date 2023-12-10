@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 
 import { useSelector } from "react-redux";
 
@@ -7,7 +8,12 @@ import CardBasket from "../CardBasket/CardBasket";
 
 function Basket() {
   const data = useSelector((state) => state.cart.itemsInCart);
-  const totalPrice = data.reduce((acc, item) => (acc += item.price), 0);
+  const totalPrice = data.reduce((acc, item) => (acc += +item.totalPrice), 0);
+  const navigate = useNavigate();
+  
+  if (data.length < 1) {
+    navigate('/');
+  }
 
   return (
     <section className="basket">
@@ -17,7 +23,7 @@ function Basket() {
           <CardBasket key={item.id} card={item} />
         ))}
       </ul>
-      <div className="basket__sum">{totalPrice} </div>
+      <div className="basket__sum">Сумма {totalPrice} ₽ </div>
     </section>
   );
 }

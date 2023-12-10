@@ -22,6 +22,7 @@ const cartSlice = createSlice({
             return {
               ...item,
               count: ++item.count,
+              totalPrice: +item.totalPrice + +item.price,
             };
           }
           return item;
@@ -34,6 +35,7 @@ const cartSlice = createSlice({
             return {
               ...item,
               count: item.count-1,
+              totalPrice: +item.totalPrice - +item.price
             };
           }
           return item;

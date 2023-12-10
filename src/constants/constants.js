@@ -23,6 +23,7 @@ const data = [
     name: "Увлажнитель воздуха STARWIND SHC1322, 3л, белый",
     price: "1650",
     count: "1",
+    totalPrice: "1650",
   },
 
   {
@@ -31,6 +32,7 @@ const data = [
     name: "Триммер PHILIPS HC3521/15 серебристый/черный",
     price: "2290",
     count: "1",
+    totalPrice: "2290",
   },
 
   {
@@ -39,6 +41,7 @@ const data = [
     name: "Фитнес-трекер HONOR Band 5 CRS-B19S, 0.95\", черный/розовый",
     price: "2390",
     count: "1",
+    totalPrice: "2390",
   },
 
   {
@@ -47,6 +50,7 @@ const data = [
     name: "Мышь A4TECH Bloody V3, игровая, оптическая, проводная, USB, черный",
     price: "960",
     count: "1",
+    totalPrice: "960",
   },
 
   {
@@ -55,6 +59,7 @@ const data = [
     name: "Фитнес-трекер HONOR Band 5 CRS-B19S, 0.95\", черный",
     price: "2390",
     count: "1",
+    totalPrice: "2390",
   },
 
   {
@@ -63,6 +68,7 @@ const data = [
     name: "Пылесос SINBO SVC 3497, 2500Вт, синий/серый",
     price: "5670",
     count: "1",
+    totalPrice:  "5670",
   },
 
   {
@@ -71,6 +77,7 @@ const data = [
     name: "Планшет DIGMA Optima 7 Z800 Android 10.0 серебристый",
     price: "9490",
     count: "1",
+    totalPrice:  "9490",
   },
   
   {
@@ -79,6 +86,7 @@ const data = [
     name: "Монитор игровой ACER NitroRG241YPbiipx 23.8\" черный",
     price: "16800",
     count: "1",
+    totalPrice: "16800",
   },
 
   {
@@ -87,6 +95,7 @@ const data = [
     name: "Экшн-камера DIGMA DiCam 310 4K, WiFi, черный",
     price: "2290",
     count: "1",
+    totalPrice: "2290",
   },
 
   {
@@ -95,29 +104,33 @@ const data = [
     name: "Умная колонка ЯНДЕКС c голосовым помощником Алисой, серебристый",
     price: "5670",
     count: "1",
+    totalPrice: "5670",
   },
 
   {
     id: "10",
     img: img10,
     name: "Квадрокоптер DJI Mini 2 MT2PD Fly More Combo с камерой, серый",
-    price: "60 990",
+    price: "60990",
     count: "1",
+    totalPrice: "60990",
   },
   {
     id: "11",
     img: img11,
     name: "Шлем виртуальной реальности HTC Vive PRO Eye EEA, черный/синий",
-    price: "11 960",
+    price: "11960",
     count: "1",
+    totalPrice: "11960",
   },
 
   {
     id: "12",
     img: img12,
     name: "МФУ лазерный CANON i-Sensys MF445dw, A4, лазерный, черный",
-    price: "35 310",
+    price: "35310",
     count: "1",
+    totalPrice: "35310",
   },
 
   {
@@ -126,14 +139,16 @@ const data = [
     name: "Смарт-часы AMAZFIT Bip U, 1.43\", зеленый / зеленый",
     price: "4490",
     count: "1",
+    totalPrice: "4490",
   },
 
   {
     id: "14",
     img: img14,
     name: "Кофемашина PHILIPS EP1224/00, серый/черный",
-    price: "29 990",
+    price: "29990",
     count: "1",
+    totalPrice: "29990",
   },
 
   {
@@ -142,6 +157,7 @@ const data = [
     name: "Гироскутер MIZAR MZ10,5CN, 10.5\", карбон",
     price: "12 990",
     count: "1",
+    totalPrice: "12990",
   },
 
 ];

@@ -27,7 +27,7 @@ function CardBasket({ card }) {
 
       <p className="card-basket__text">{card.name}</p>
       <div className="card-basket__count"><Count  card ={card} /></div>
-      <p className="card-basket__price">{card.price * card.count} ₽</p>
+      <p className="card-basket__price">{card.totalPrice} ₽</p>
       <button className="card-basket__button" onClick={handleDeleteToCart}> ✕
       </button>
     </li>

@@ -15,7 +15,6 @@ const data = useSelector(state => state.cart.itemsInCart);
 const items = data.reduce((acc, item) => {
   for (let i = 0; i < item.count; i++) {
     acc++;
-    console.log(data);
   }
   return acc;
 }, 0);
