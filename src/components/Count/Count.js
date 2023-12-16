@@ -26,7 +26,7 @@ function Count({ card }) {
   };
 
   return (
-    <div className="count">
+    <>
       <button type="button" className="count__down" onClick={handleDownClick}>
       —
       </button>
@@ -44,7 +44,7 @@ function Count({ card }) {
       <button type="button" className="count__up" onClick={handleUpClick}>
         +
       </button>
-    </div>
+    </>
   );
 }
 

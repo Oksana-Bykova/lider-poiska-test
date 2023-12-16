@@ -7,11 +7,11 @@
 
 @media screen and (max-width: 1200px) {
   .header {
-    width: 79%;
+    width: 79.5%;
   }
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 750px) {
   .header {
     width: 92%;
   }
@@ -26,7 +26,7 @@
 }
 
 .header__img-basket {
-  margin-top: 4px;
+  margin-bottom: 4px;
   margin-right: 10px;
 }
 
@@ -41,23 +41,26 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-right: 18px;
+  margin-right: 12px;
 }
 
 .header__link {
-text-decoration: none;
-color: black;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .header__count {
   display: inline-block;
-  color: #FFF;
-text-align: center;
-font-size: 12px;
-font-weight: 600;
-line-height: normal;
-background-color: #00A82D;
-border-radius: 15px;
-width: 21px;
-height: 21px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18.5px;
+  background-color: #00a82d;
+  border-radius: 15px;
+  width: 21px;
+  height: 21px;
 }
