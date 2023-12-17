@@ -31,9 +31,24 @@
   margin-bottom: 38px;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 750px) {
   .basket__title {
     margin-bottom: 29px;
+  }
+}
+
+
+
+@media screen and (max-width: 580px) {
+  .basket__title {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .basket__title {
+    font-size: 26px;
+    margin-top: 45px;
   }
 }
 

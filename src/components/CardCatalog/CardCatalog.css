@@ -15,9 +15,15 @@
 
 @media screen and (max-width: 749px) {
   .card {
-    /* max-width: 450px; */
     min-width: 409px;
     padding: 10px 20px 0px 20px;
+  }
+}
+
+@media screen and (max-width: 579px) {
+  .card {
+    min-width: 227px;
+   
   }
 }
 
@@ -62,6 +68,12 @@
   }
 }
 
+@media screen and (max-width: 579px) {
+  .card__text {
+    margin: 5px auto 15px auto;
+  }
+}
+
 .card__price {
   font-size: 18px;
   font-weight: 700;
@@ -92,6 +104,13 @@
   }
 }
 
+@media screen and (max-width: 579px) {
+  .card__img-wrapper {
+    min-width: 50%;
+    
+  }
+}
+
 @media screen and (max-width: 749px) {
   .card__img {
     background-size: contain;
@@ -100,7 +119,6 @@
 
 .card__button {
   display: none;
-  /* display: block; */
   font-size: 12px;
   font-weight: 600;
   line-height: 130%;
@@ -118,7 +136,13 @@
 @media screen and (max-width: 749px) {
   .card__button {
     display: block;
-    
+    width: 185px;
+  }
+}
+
+@media screen and (max-width: 579px) {
+  .card__button {
+    margin: 15px auto 6px auto;
   }
 }
 

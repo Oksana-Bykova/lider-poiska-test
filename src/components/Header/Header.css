@@ -17,8 +17,20 @@
   }
 }
 
+@media screen and (max-width: 580px) {
+  .header {
+    width: 88%;
+  }
+}
+
 .header__logo-container {
   width: 215px;
+}
+
+@media screen and (max-width: 580px) {
+  .header__logo-container {
+    width: 180px;
+  }
 }
 
 .header__logo {
@@ -42,6 +54,12 @@
   font-weight: 600;
   line-height: normal;
   margin-right: 12px;
+}
+
+@media screen and (max-width: 580px) {
+  .header__text {
+    display: none;
+  }
 }
 
 .header__link {
