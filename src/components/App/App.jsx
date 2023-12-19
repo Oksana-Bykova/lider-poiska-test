@@ -7,6 +7,7 @@ import { store } from "../../redux";
 import Header from "../Header/Header";
 import Catalog from "../Сatalog/Catalog";
 import Basket from "../Basket/Basket";
+import { Popup } from "../Popup/Popup";
 
 function App() {
   return (
@@ -21,8 +22,8 @@ function App() {
               <Route path="/" element={<Catalog></Catalog>} />
               <Route path="/basket" element={<Basket></Basket>} />
             </Routes>
+            <Popup />
           </main>
-          <footer></footer>
         </div>
       </div>
     </Provider>

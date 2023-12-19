@@ -22,8 +22,22 @@ body {
   max-width: 1170px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  /* margin: 0 auto; */
+}
+
 @media screen and (max-width: 580px) {
   .page {
     margin: 29px auto 0 auto;
   }
 }
+
+input:focus {
+  border: 1px solid #4892ec;
+}
+
+ input:invalid {
+  border: 1px solid #e86880;
+} 

@@ -2,6 +2,7 @@
   max-width: 1170px;
   
   margin: 0 auto;
+  margin-bottom: 60px;
 }
 
 @media screen and (max-width: 1600px) {
@@ -86,4 +87,8 @@
   .basket__sum {
     text-align: center;
   }
+}
+
+.basket__form {
+  width: 100vw;
 }
